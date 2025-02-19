@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body:has(dialog[open])::before {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.82);
+  z-index: 9;
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+ion-icon {
+  width: 40px;
+  height: 40px;
+}
