@@ -95,7 +95,7 @@ const projectsContent = [
     ],
   },
   {
-    imageSrc: "/public/projects-images/Advanced-DOM-Bankist.png",
+    imageSrc: "projects-images/Advanced-DOM-Bankist.png",
     projectTitle: "Advanced-DOM-Bankist",
     description:
       "The Contact Form challenge is a simple yet effective web form designed for users to get in touch with a company or individual. It includes fields for entering a name, email, subject, and message, along with a submit button. The form is built to be user-friendly, responsive, and accessible, ensuring a smooth experience for visitors on any device.",
@@ -106,7 +106,7 @@ const projectsContent = [
     ],
   },
   {
-    imageSrc: "/public/projects-images/Todo app.jpg ",
+    imageSrc: "projects-images/Todo app.jpg ",
     projectTitle: "To-Do App",
     description:
       "The To-Do App challenge is an interactive task management application that allows users to add, delete, and mark tasks as completed. It features filtering options to view active or completed tasks, and local storage to save progress even after refreshing the page. Designed with a clean and responsive UI, the app also includes a dark/light mode switch for better accessibility and user experience.",
