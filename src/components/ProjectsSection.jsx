@@ -129,7 +129,7 @@ const projectsContent = [
   },
   {
     imageSrc: "projects-images/Contact form.jpg",
-    projectTitle: "Contact form - Use it to contact with me",
+    projectTitle: "Contact form - Use it to contact me",
     description:
       "The Contact Form challenge is a simple yet effective web form designed for users to get in touch with a company or individual. It includes fields for entering a name, email, subject, and message, along with a submit button. The form is built to be user-friendly, responsive, and accessible, ensuring a smooth experience for visitors on any device.",
     technologies: ["React", "Tailwind-CSS", "framer-motion"],
