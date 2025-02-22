@@ -1,10 +1,14 @@
 const links = [
   {
-    title: "LinkedIn",
+    title: "LinkedIn Profile",
     url: "https://www.linkedin.com/in/mohgad",
   },
   {
-    title: "GitHub",
+    title: "Send me an e-mail",
+    url: "mailto:gadsoftwaredeveloper@gmail.com",
+  },
+  {
+    title: "GitHub Page",
     url: "https://github.com/GADMuhammad?tab=repositories",
   },
   {
@@ -15,7 +19,7 @@ const links = [
 
 export default function Footer() {
   return (
-    <footer className="px-20 bg-lightBlue py-5 flex-wrap max-sm:flex-col max-sm:gap-3 max-sm:items-center max-sm:px-2 flex text-2xl justify-evenly font-Dosis tracking-wide">
+    <footer className="px-20 bg-lightBlue py-5 flex-wrap max-md:flex-col max-md:gap-3 max-md:items-center max-md:px-2 flex text-2xl justify-evenly gap-8 font-Dosis tracking-wide">
       {links.map(({ title, url }) => (
         <a key={title} target="_blank" href={url}>
           {title}
