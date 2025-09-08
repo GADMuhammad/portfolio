@@ -2,8 +2,7 @@ import ProjectTemp from "./ProjectTemp";
 
 const projectsContent = [
   {
-    imageSrc:
-      "projects-images/REST Countries API with color theme switcher.jpg",
+    imageSrc: "projects-images/REST Countries API with color theme switcher.jpg",
     projectTitle: "Explore the whole world countries from your home",
     description:
       "An interactive web application that provides detailed information about countries worldwide. Users can browse a list of countries, search for a specific country by name, and filter results based on regions such as Africa, Europe, or Asia. Each country’s page includes key details like population, capital, area, official languages, and neighboring countries. Additionally, the app features a dark mode and light mode toggle, allowing users to switch themes for a more comfortable viewing experience. This project combines data fetching, user-friendly navigation, and responsive design for an engaging exploration of world geography.",
@@ -22,9 +21,25 @@ const projectsContent = [
     ],
   },
   {
+    imageSrc: "projects-images/Browser extension manager UI.webp",
+    projectTitle: "Browser extension manager UI",
+    description:
+      "The Browser Extension Manager UI challenge is an interactive interface where users can view, filter, and manage browser extensions, practicing dynamic data handling, responsive grid layouts, theming, and interactivity",
+    technologies: [
+      "React",
+      "react-router-dom",
+      "sweet-alert2",
+      "Tailwind-CSS",
+      "styled-components",
+    ],
+    links: [
+      "https://github.com/GADMuhammad/Browser-extension-manager-UI",
+      "https://browser-extension-manager-ui-ashen.vercel.app",
+    ],
+  },
+  {
     imageSrc: "projects-images/demo-store-1.png",
-    projectTitle:
-      "Demo E-Commerce Store: A Showcase of Online Shopping Experience",
+    projectTitle: "Demo E-Commerce Store: A Showcase of Online Shopping Experience",
     description:
       "An e-commerce demo project built with React.js and styled using Tailwind CSS. This project showcases how to build a functional store interface, including features like product listings, a shopping cart, and user authentication. It's designed to help developers learn how to integrate front-end technologies like React and Tailwind CSS while simulating a real-world e-commerce store experience.",
     technologies: [
